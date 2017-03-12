@@ -1,2 +1,1 @@
-# -MyViewTestFirst
-自定义view的circleImage 和viewpager+fragment实现
+# -MyViewTestFirst自定义view的circleImage 和viewpager+fragment实现#####效果图#####![image](readMeNeedPicture/first.jpg)#####![image](readMeNeedPicture/second.jpg)

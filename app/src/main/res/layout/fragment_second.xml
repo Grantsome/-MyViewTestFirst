@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.grantsome.myviewtestfirst.MyThirdView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.grantsome.myviewtestfirst.QQItemViewFirst
+        app:drawable="@drawable/boy_second"
+        android:id="@+id/first_item_view"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.grantsome.myviewtestfirst.QQItemViewFirst
+        app:drawable="@drawable/boy_first"
+        android:id="@+id/second_item_view"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.grantsome.myviewtestfirst.QQItemViewFirst
+        app:drawable="@drawable/girl_first"
+        android:id="@+id/third_item_view"
+        android:layout_marginTop="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.grantsome.myviewtestfirst.QQItemViewFirst
+        app:drawable="@drawable/teacher"
+        android:id="@+id/fourth_item_view"
+        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

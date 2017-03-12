@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@android:color/holo_blue_light"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <com.grantsome.myviewtestfirst.MyFirstView
+        app:viewColor="#078965"
+        android:id="@+id/my_first_view"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.grantsome.myviewtestfirst.MySecondView
+        app:viewText="Simonal is handsome"
+        app:viewTextColor="@android:color/holo_red_light"
+        app:viewTextSize="16dp"
+        android:id="@+id/my_second_view"
+        android:padding="16dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
